@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<style>
+    [class*="col"]{
+        padding: 1rem;
+        background-color: #33b5e5;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+</style>
+<body>
+    
+    <div class="container-md border">Content
+        <div class="row">
+            <div class="col-lg-8 col md-6">col 1</div>
+            <div class="col-lg-4 col-md-6">col 2</div>
+        </div>
+
+        <div class="row">
+            <div class="col">col 1</div>
+            <div class="col">col 2</div>
+            <div class="col">col 3</div>
+            <div class="col">col 4</div>
+        </div>
+    </div>
+
+    <div class="container-md border">
+        <br>
+        <h2>Pinagsama sama lahat
+            col-xxl-1
+        </h2>
+        <div class="row">
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+    </div>
+    </div>
+
+
+    <div class="container-md border">
+        <br>
+        <h2>col-xl-2</h2>
+        <div class="row">
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class=" col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+    </div>
+    </div>
+
+    <div class="container-md border">
+        <br>
+        <h2>col-lg-3</h2>
+        <div class="row">
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+        <div class="  col-lg-3 col-md-4 col-sm-6 col-xs-12">  col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+    </div>
+    </div>
+    
+    <div class="container-md border">
+        <br>
+        <h2>col-md-4</h2>
+        <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+        <div class="col-md-4 col-sm-6 col-xs-12">col-md-4 col-sm-6 col-xs-12</div>
+    </div>
+    </div>
+
+
+    <div class="container-md border">
+        <br>
+        <h2>col-sm-6</h2>
+        <div class="row">
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+        <div class=" col-sm-6 col-xs-12"> col-sm-6 col-xs-12</div>
+    </div>
+    </div>
+
+    
+    <div class="container-md border">
+        <br>
+        <h2>col-xs-12</h2>
+        <div class="row">
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+        <div class=" col-xs-12"> col-xs-12</div>
+    </div>
+    </div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
